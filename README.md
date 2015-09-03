@@ -1,6 +1,8 @@
 IMPORTANT!
 ==========
 
+[![Join the chat at https://gitter.im/contentanalyst/Ansible-CloudWatch](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/contentanalyst/Ansible-CloudWatch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This play will only work if ec2_metric_alarm.py is on the devel branch or on version 1.8+
 
 Before running this play, create an awscreds.conf file in roles/common/files or set up your instances with a role. The credentials or tole you use should have the CloudWatch:putmetric permission.
